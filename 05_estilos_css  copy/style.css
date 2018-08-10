@@ -58,7 +58,27 @@ h2{
 	.figura img{
 		width:255px;
 		height: auto;
+		
+
 	}
+ 
+    .figura {
+    	position:relative;
+    	overflow: hidden;
+    }
+	.cinta{
+	color: #fff;
+	background-color: #0B77DB;
+	position: absolute;
+	top: 10px;
+	left: -23px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 300px;
+	padding: 2px 30px;
+
+	transform: rotate(-39deg);
+}
 	.cuerpo{
 		padding: 20px;
 		border: 1px solid #e5e5e5;
@@ -81,3 +101,5 @@ h2{
 	text-decoration: none;
 	width: 50%;
 }
+
+
