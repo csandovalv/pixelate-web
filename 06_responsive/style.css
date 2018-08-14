@@ -1,0 +1,134 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	font-family: Roboto Condensed, sans-serif;
+	line-height: 1.5;
+	font-size: 12px;
+	color: #575757;
+}
+h1, h2{
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+
+}
+p{
+	margin: 0;
+	
+}
+a{ 
+   color: #AF447C;
+   text-decoration: none; /*Eliminar subrayado*/
+}
+a:hover,
+a:active,
+a:focus{
+	color: #194478;
+	text-decoration: underline; /*agregar subrayado*/
+
+
+}
+/*reglas personalizadas para textos*/
+
+h1{
+	font-size: 22px;
+	color: #AF447C;
+	text-transform: uppercase; /*subir a mausculas */
+	
+}
+h2{
+	
+	font-size: 10px;
+	color: #575757;
+}
+/*Estructuras*/
+.tarjetero{
+	width: 1080px;
+	margin: 50px auto;
+	background-color: pink;
+}
+
+.tarjeta{
+	width:255px;
+	float: left;
+	background-color: #f5f5f5;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.tarjeta:nth-child(4n){
+	margin-right: 0px;
+}
+
+	.figura img{
+		width:255px;
+		height: auto;
+		
+
+	}
+ 
+    .figura {
+    	position:relative;
+    	overflow: hidden;
+    	width: 255px;
+        height: 193px;
+        background-image: url(../_images/bicicleta.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: pink;
+        background-position: 50%;
+    }
+	.cinta{
+	color: #fff;
+	background-color: #0B77DB;
+	position: absolute;
+	top: 10px;
+	left: -23px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 300px;
+	padding: 2px 30px;
+
+	transform: rotate(-39deg);
+}
+	.cuerpo{
+		padding: 15px 15px 30px;
+		border: 1px solid #e5e5e5;
+		border-top: none;
+
+
+	}
+
+	.cuerpo h1{
+	margin-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 5px;
+	}
+
+	.cuerpo p {
+		margin-bottom: 15px;
+
+	}
+/*estilos multiuso*/
+.boton{
+	display: inline-block;
+	background-color: #AF447C;
+	font-size: 10px;
+	color: #fff;
+	padding: 6px 14px;
+	border-radius: 6px;
+	transition: all 250ms linear; /*transición de segundo para ponerse de otro color*/
+}
+.boton:hover{
+	color: #f5f5f5;
+	background-color: #73425C;
+	text-decoration: none;
+	width: 50%;
+}
+
+
