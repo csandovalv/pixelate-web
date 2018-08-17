@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+}
+h1{ margin: 0; }
+
+.container{
+	width: 90%;
+	background-color: #f5f5f5;
+	margin: 50px auto;
+	/* La mayoría de las propiedades de flexbox, se aplican __ AL CONTENEDOR __  */
+	display: flex;
+	flex-direction: column; /*direccion en la que se disponen los elementos - row- column*/
+	flex-wrap: nowrap; /*calcula el ancho de los elementos para que quepan en la fila -wrap */
+	align-items: center; /*alinea en el eje vertical - flex start - flex end - center */
+	justify-content: space-between; /*alinear y distribuir en el eje horizontal - flex-start- flex end- center- space around-space betwen*/
+
+}
+
+.caja{
+	padding: 10px;
+	width: 30%
+	border: 1px solid pink;
+	margin-bottom: 20px;
+
+}
+.uno { background-color: rgba(255,0,0,0.2); height: 100px; }
+.dos { background-color: rgba(0,255,0,0.2); height: 180px; }
+.tres{ background-color: rgba(0,0,255,0.2); height: 210px; }
